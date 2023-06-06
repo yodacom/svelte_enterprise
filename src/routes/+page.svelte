@@ -1,20 +1,35 @@
+<script>
+	import Footer from './footer.svelte'
+</script>
+
 <div class="mt-16 grid justify-items-center text-center">
+	<!-- <div class="container grid grid-cols-2"> -->
+
 	<h1>
+		<img
+			class="inline h-20 w-20 rounded-full object-cover pb-6"
+			src="dynamicField3-unscreen.gif"
+			alt="dynamic field"
+		/>
 		<span
-			class=" bg-gradient-to-r from-blue-400 to-purple-400  box-decoration-clone bg-clip-text text-7xl font-bold text-transparent"
+			class=" bg-gradient-to-r from-blue-400 to-purple-400 box-decoration-clone bg-clip-text text-6xl font-bold text-transparent"
 		>
-			SvelteKit Enterprise Stack
+			FieldBenders
 		</span>
+		<img
+			class="inline h-20 w-20 rounded-full object-cover pb-6"
+			src="dynamicField3-unscreen.gif"
+			alt="dynamic field"
+		/>
 	</h1>
+	<!-- </div> -->
 
-	<span class="my-16 block max-w-3xl text-2xl text-gray-400">
-		Every part of the SvelteKit enterprise stack is optimized to go blazingly
-		fast and please stakeholders.
-	</span>
+	<h2><span class="text-gray-400"> Changing the World Around them </span></h2>
 
-	<img
-		class="h-80 w-80 rounded-full object-cover"
-		src="https://haha.business/business.jpg"
-		alt="Business person laughing"
-	/>
+	<h3>
+		<span class="my-10 block max-w-3xl px-5 text-gray-400">
+			Every creative change in the world begins with people who influence the
+			entangled world around them - bringing ideas to life.
+		</span>
+	</h3>
 </div>

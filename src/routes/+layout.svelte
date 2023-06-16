@@ -11,12 +11,12 @@
 	<title>Fieldbender</title>
 	<link rel="icon" href="https://fav.farm/🔥" />
 </svelte:head>
-<AppShell>
-	<svelte:fragment slot="header">Header</svelte:fragment>
+<!-- <AppShell>
+	<svelte:fragment slot="header">Header</svelte:fragment>-->
 
-	<Heading />
+<Heading />
 
-	<slot />
-	<svelte:fragment slot="footer">PageFooter</svelte:fragment>
-	<PageFooter />
-</AppShell>
+<slot />
+<!-- <svelte:fragment slot="footer">PageFooter</svelte:fragment> -->
+<PageFooter />
+<!-- </AppShell> -->
